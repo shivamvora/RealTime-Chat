@@ -10,13 +10,13 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #F8F8F8;
+    background: gray;
     font-family: 'Roboto', sans-serif;
 }
 section.chat__section {
     width: 800px;
     max-width: 90%;
-    background: #fff;
+    background: rgb(192, 192, 192);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .brand {
@@ -51,7 +51,26 @@ textarea {
 .design__change{
     background-color: rgb(58, 56, 56);
     color: white;
+    font-weight: 900;
+    font-size: 20px;
 }
+::-webkit-scrollbar{
+    width: 15px;
+    border-radius: 10px;    
+}
+::-webkit-scrollbar-track{
+    border: 7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+    
+    
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(45deg,#06dee1,#79ff6c);
+    border-radius: 100px;
+    
+}
+
+
 
 .message {
     padding: 20px; 
@@ -61,12 +80,12 @@ textarea {
     position: relative;
 }
 .incoming {
-    background: #8F8BE8;
+    background: #2d5827;
     color: #fff;  
 }
 .outgoing {
-    background: #e9eafd;
-    color: #787986;
+    background: rgb(80, 80, 102);
+    color: white;
     margin-left: auto;
 }
 .message h4 {
