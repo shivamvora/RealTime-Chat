@@ -13,9 +13,7 @@
     <section class="chat__section">
         <div class="brand">
             <img height="40" src="/wassup.png" alt="">
-            <script>
-                {`<h1>Live chat with shivam vora</h1> ${time}`}
-            </script>
+            <h1>Live chat with shivam vora</h1>
         </div>
         <div class="message__area"></div>
         <div>
@@ -24,17 +22,6 @@
     </section>
     <script src="/socket.io/socket.io.js"></script>
     <script src="/client.js"></script>
-    <script>
-        const time = () => {
-    var d = new Date();
-    var s = d.getSeconds();
-    var m = d.getMinutes();
-    var h = d.getHours();
-    document.write(h + ":" + m + ":" + s);
-}
-
-setInterval(time,1000);
-    </script>
 </body>
 
 </html>
