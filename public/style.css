@@ -48,6 +48,10 @@ textarea {
     outline: none;
     background: #FBFBFB;
 }
+.design__change{
+    background-color: rgb(58, 56, 56);
+    color: white;
+}
 
 .message {
     padding: 20px; 
