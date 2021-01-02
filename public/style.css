@@ -21,8 +21,9 @@ section.chat__section {
 }
 .brand {
     padding: 20px;
-    background: #f1f1f1;
+    background: #358f53;
     display: flex;
+    color: white;
     align-items: center;
 }
 .brand h1 {
