@@ -29,7 +29,7 @@ section.chat__section {
 .brand h1 {
     text-transform: uppercase;
     font-size: 20px;
-    color: #444;
+    color:white;
     margin-left: 10px;
 }
 .message__area{
