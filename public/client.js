@@ -3,7 +3,7 @@ let name;
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
 do {
-    name = prompt('Please enter your name: ')
+    name = prompt('Please enter your full name to display with name badge: ')
 } while(!name)
 
 textarea.addEventListener('keyup', (e) => {
